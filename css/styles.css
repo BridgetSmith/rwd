@@ -1,3 +1,43 @@
 body {
 	background: url("..img/bg.png")
 }
+
+/*layout*/
+.container {
+	width: 95%;
+	margin: 0 auto;
+	background: teal;
+}
+
+article section {
+	width: 50%;
+	float: left;
+}
+
+iframe, img {
+	max-width: 100%;
+	width: 100%;
+}
+
+/*desktop 960*/
+@media (min-width:960px;){
+	#top {
+		width: 300px;
+	}
+}
+/*tablet 768*/
+@media (min-width:768px;){
+	section img {
+		width: 80%;
+	}
+	section h1 {
+		text-transform: uppercase;
+		color: orange;
+	}
+	/*tmobile 768*/
+@media (min-width:768px;){
+	
+	}
+	
+}
+
